@@ -1,0 +1,465 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="PWA zur Berechnung eines Kreises" name="description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=contain">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta content="de" http-equiv="Content-Language">   
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">  
+  <title>Dreieck rechtwinklig</title>
+     
+	 <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-65703025-1', 'auto');
+ga('send', 'pageview');
+  </script>
+  
+  <!-- Adsense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-8397765882296907",
+    enable_page_level_ads: true
+  });
+</script>
+  
+</head>
+<body style="background-color: rgb(204, 0, 0);">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- FePwa -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8397765882296907"
+     data-ad-slot="5528952293"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<div style="border-width: 5px;"> <span
+ style="font-family: Arial,Helvetica,sans-serif;"> 
+	<img alt="Logo"
+ src="logo512.png" style="margin: 10px; float: left; height: 62px; width: 62px;"
+ height="295" width="226"><br>
+&nbsp;&nbsp;&nbsp; <span style="color: rgb(255, 255, 255);">
+	<a href="http://www.Fenster-Soft.de" style="text-decoration: none; color: #FFFFFF"><strong>www.Fenster-Soft.de</strong></a></span>
+	
+<div style="position: relative; top: 30px; color: #FFFFFF; left: -70px;">     
+	<h3>Geometrie: Dreieck rechtwinklig </h3>
+	</div>	
+
+<span style="color: rgb(255, 255, 255);"><strong>&nbsp; 
+	</strong></span></span>&nbsp;
+	<form action="" method="post" name="formular" style="margin: 10px;">
+  <table style="text-align: left; width: auto; height: 194px;">
+    <tbody>
+      <tr>
+        <td style="width: 300px; text-align: left; vertical-align: top;"
+ 		rowspan="2"> &nbsp;&nbsp; 
+		<img style="position: absolute; left: 10px; width: 300px; "
+ 		alt="Kreis" src="rechtDreieck.jpg" id="bild1">&nbsp;&nbsp;
+ 		<div style="position: relative; top: 447px; left: 89px">
+        <p style="color: #FFFFFF; font-family: Arial, Helvetica, sans-serif;">
+		<strong>Fläche</strong></p>
+        </div>
+ 		<input name="flaeche" style="width: 80px; position: relative; left: -2px; top: 410px;"
+ 			onchange="loescheTextfelder()" type="number" readonly="true"></td></tr></tbody> </table>        
+        
+                       
+   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<input name="button1" onclick="berechne()" value="berechne" tabindex="2" type="button" style="width: 80px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<span
+ style="font-family: Arial,Helvetica,sans-serif; color: rgb(255, 255, 255);"> 
+<input name="button2" onclick="location.href='index.html'" value="zurück" tabindex="3" type="button" style="width: 80px"><br>
+  <br>
+		<strong><br><span style="text-decoration: underline">Eingaben:</span></strong> 
+		Bitte zwei Werte eingeben<strong><br></strong></span><br>
+  <table style="width: 235px; height: 171px; text-align: left; vertical-align: middle;">
+    <tbody>
+      <tr>
+        <td style="width: 69px"> <span
+ style="font-family: Arial,Helvetica,sans-serif; color: rgb(255, 255, 255);">
+        <input name="gegenkat" style="width: 70px;" type="number" tabindex="1" ></span></td>
+        <td style="width: 177px"><span
+ style="font-family: Arial,Helvetica,sans-serif; color: rgb(255, 255, 255);">&nbsp;<strong>Gegenkathede</strong></span></td>
+      </tr>
+      <tr>
+        <td style="width: 69px; height: auto;"> <span
+ style="font-family: Arial,Helvetica,sans-serif; color: rgb(255, 255, 255);">
+        <input name="ankat" style="width: 70px;" type="number" tabindex="2"></span></td>
+        <td style="width: 177px; "> 
+		<span style="font-family: Arial,Helvetica,sans-serif; color: rgb(255, 255, 255);">
+		&nbsp;<strong>Ankathede </strong> </span></td>
+      </tr>
+      <tr>
+        <td style="width: 69px"> <span
+ style="font-family: Arial,Helvetica,sans-serif; color: rgb(255, 255, 255);">
+        <input name="hypo" style="width: 70px;" type="number" tabindex="3" ></span></td>
+        <td style="width: 177px"> 
+		&nbsp;<span style="font-family: Arial,Helvetica,sans-serif; color: rgb(255, 255, 255);"><strong>Hypotenuse </strong> </span></td>
+      </tr>
+      <tr>
+        <td style="width: 69px"> <span
+ style="font-family: Arial,Helvetica,sans-serif; color: rgb(255, 255, 255);">
+        <input name="alpha" style="width: 70px;"  type="number" tabindex="4"></span></td>
+        <td style="width: 177px"> 
+		<span style="font-family: Arial,Helvetica,sans-serif; color: rgb(255, 255, 255);">
+		&nbsp;<strong>&alpha; alpha</strong> </span></td>
+      </tr>
+      <tr>
+        <td style="width: 69px"> <span
+ style="font-family: Arial,Helvetica,sans-serif; color: rgb(255, 255, 255);">
+        <input name="beta" style="width: 70px;"  type="number" tabindex="5"></span></td>
+        <td style="width: 177px"> 
+		<span style="font-family: Arial,Helvetica,sans-serif; color: rgb(255, 255, 255);">
+		&nbsp;<strong>&beta; beta</strong> </span>&nbsp;</td>
+      </tr>
+    </tbody>
+  </table>
+  	    <br><br><br><br>
+  <span style="font-family: Arial,Helvetica,sans-serif; color: rgb(255, 255, 255);">&nbsp;&nbsp;&nbsp; 
+<input name="button2" onclick="location.href='index.html'" value="zurück" tabindex="7" type="button" style="width: 80px">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+		<span style="font-family: Arial,Helvetica,sans-serif; text-decoration: underline; color: rgb(255, 255, 255);"> 
+<input name="button1" onclick="berechne()" value="berechne" tabindex="6" type="button" style="width: 80px"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+		<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<span style="font-family: Arial,Helvetica,sans-serif; text-decoration: underline; color: rgb(255, 255, 255);"> 
+<input name="button3" onclick="zuruecksetz()" value="zurücksetzen" tabindex="8" type="button" style="width: 100px"><br><br><br> 
+		</span></span>
+		</form>
+<br>
+</div>
+
+<script type="text/javascript"> 
+  'use strict';
+  
+	/** Variablendeklaration **/
+	var gkath = 0; var akath = 0;
+	var hypo = 0; var winkalpha = 0;
+	var winkbeta = 0; var flaeche = 0; var alpha = 0; 	var beta = 0; 
+	
+  function berechne() {
+
+	try
+            {	
+                gkath = parseFloat(eval(document.formular.gegenkat.value.replace(',', '.'))); 
+                akath = parseFloat(eval(document.formular.ankat.value.replace(',', '.')));
+                hypo = parseFloat(eval(document.formular.hypo.value.replace(',', '.'))); 
+                winkalpha = parseFloat(eval(document.formular.alpha.value.replace(',', '.')));
+                winkbeta = parseFloat(eval(document.formular.beta.value.replace(',', '.')));
+                 
+                if (isNaN(gkath))
+				{ gkath = 0; } else {gkath = gkath;}
+				if (isNaN(akath))
+				{ akath = 0; } else {akath = akath;}
+				if (isNaN(hypo))
+				{ hypo = 0; } else {hypo = hypo;}
+				if (isNaN(winkalpha))
+				{ winkalpha = 0; } else {winkalpha = winkalpha;}
+				if (isNaN(winkbeta))
+				{ winkbeta = 0; } else {winkbeta = winkbeta;}
+				
+				
+				if (gkath > 0 && akath > 0 && hypo == 0 && winkalpha == 0 && winkbeta == 0)
+                {                                   
+                    hypo = Math.sqrt((gkath * gkath) + (akath * akath));
+                    hypo = Math.round(hypo*100)/100; 
+                    document.formular.hypo.value = hypo;  
+
+                    alpha = Math.atan(gkath / akath);
+                    alpha = alpha * (180 / Math.PI);
+                    alpha = Math.round(alpha*100)/100; 
+                    document.formular.alpha.value = alpha;  
+                    
+                    beta = 180 - 90 - alpha;
+                    beta = Math.round(beta*100)/100; 
+                    document.formular.beta.value = beta;  
+
+                    flaeche = (akath * gkath) / 2;
+                    flaeche = Math.round(flaeche*100)/100;
+                    document.formular.flaeche.value = flaeche; 
+
+                }
+                else if (gkath > 0 && akath == 0 && hypo > 0 && winkalpha == 0 && winkbeta == 0)
+                {
+                    if (gkath < hypo)
+                    {
+                        gkath = Math.round(gkath*100)/100; 
+                        document.formular.gegenkat.value = gkath;
+
+                        alpha = Math.asin((gkath / hypo));
+                        akath = hypo * Math.cos(alpha);
+                        akath = Math.round(akath*100)/100; 
+                        document.formular.ankat.value = akath;
+
+                        hypo = Math.round(hypo*100)/100; 
+                        document.formular.hypo.value = hypo;
+
+                        alpha = alpha * (180 / Math.PI);        // Radiant zu Winkel
+                        alpha = Math.round(alpha*100)/100; 
+                        document.formular.alpha.value = alpha;
+                        
+                        beta = 180 - 90 - alpha;
+                        beta = Math.round(beta*100)/100;
+                        document.formular.beta.value = beta;
+
+                        flaeche = (akath * gkath) / 2;
+                        flaeche = Math.round(flaeche*100)/100;
+                        document.formular.flaeche.value = flaeche;
+                        
+                    }
+                    else
+                    {
+                       zuruecksetz();
+                       alert("Bitte prüfen Sie die Eingaben!", "!Warnung!");                       
+                    }
+                }
+
+                else if (gkath > 0 && akath == 0 && hypo == 0 && winkalpha > 0 && winkalpha < 90 && winkbeta == 0)
+                {
+                    /*gkath = Math.round(gkath*100)/100; 
+                    document.formular.gegenkat.value = gkath;
+*/
+                    alpha = winkalpha * (Math.PI / 180);   // Winkel zu Radiant                   
+                    akath = gkath / Math.tan(alpha);
+                    akath = Math.round(akath*100)/100; 
+                    document.formular.ankat.value = akath;
+
+                    hypo = Math.sqrt((gkath * gkath) + (akath * akath));
+                    hypo = Math.round(hypo*100)/100; 
+                    document.formular.hypo.value = hypo;
+
+                    //winkalpha = winkalpha * (180 / Math.PI); 
+                    winkalpha = Math.round(winkalpha*100)/100; 
+                    document.formular.alpha.value = winkalpha;
+
+                    beta = 180 - 90 - winkalpha;
+                    beta = Math.round(beta*100)/100;
+                    document.formular.beta.value = beta;
+                    
+                    flaeche = (akath * gkath) / 2;
+                    flaeche = Math.round(flaeche*100)/100;
+                    document.formular.flaeche.value = flaeche;
+                    
+                }
+
+                else if (gkath > 0 && akath == 0 && hypo == 0 && winkalpha == 0 && winkbeta > 0 && winkbeta < 90)
+                {
+                    /*gkath = Math.Round(gkath, 2); 
+                    textBox1.Text = Convert.ToString(gkath);
+*/
+                    beta = winkbeta * (Math.PI / 180); 
+                    akath = gkath * Math.tan(beta);
+                    akath = Math.round(akath*100)/100; 
+                    document.formular.ankat.value = akath;
+
+                    hypo = Math.sqrt((gkath * gkath) + (akath * akath));
+                    hypo = Math.round(hypo*100)/100; 
+                    document.formular.hypo.value = hypo;
+
+                    alpha = 180 - 90 - winkbeta;
+                    alpha = Math.round(alpha*100)/100; 
+                    document.formular.alpha.value  = alpha;
+
+                    beta = Math.round(winkbeta*100)/100;
+                    document.formular.beta.value = beta;
+
+                    flaeche = (akath * gkath) / 2;
+                    flaeche = Math.round(flaeche*100)/100;
+                    document.formular.flaeche.value = flaeche;
+                }
+
+                else if (gkath == 0 && akath > 0 && hypo > 0 && winkalpha == 0 && winkbeta == 0)
+                {
+                    if (akath < hypo)
+                    {
+                        alpha = Math.acos(akath / hypo);
+                        gkath = hypo * Math.sin(alpha);
+                        gkath = Math.round(gkath*100)/100; 
+                        document.formular.gegenkat.value = gkath;
+
+                        akath = Math.round(akath*100)/100; 
+                        document.formular.ankat.value = akath;
+
+                        hypo = Math.round(hypo*100)/100; 
+                        document.formular.hypo.value = hypo;
+                        alpha = alpha * (180 / Math.PI);
+                        alpha = Math.round(alpha*100)/100; 
+                        document.formular.alpha.value = alpha; 
+                        
+                        beta = 180 - 90 - alpha;
+                        beta = Math.round(beta*100)/100;
+                        document.formular.beta.value = beta; 
+                        
+                        flaeche = (akath * gkath) / 2;
+                        flaeche = Math.round(flaeche*100)/100;
+                        document.formular.flaeche.value = flaeche;
+                        
+                    }
+                    else
+                    {
+                        zuruecksetz();
+                        alert("Bitte prüfen Sie die Eingaben!", "!Warnung!");
+                    }
+                }
+
+                else if (gkath == 0 && akath > 0 && hypo == 0 && winkalpha > 0 && winkalpha < 90 && winkbeta == 0)
+                {
+                    alpha = winkalpha * (Math.PI / 180);
+                    gkath = akath * Math.tan(alpha);
+                    gkath = Math.round(gkath*100)/100; 
+                    document.formular.gegenkat.value = gkath;
+
+                    akath = Math.round(akath*100)/100; 
+                    document.formular.ankat.value = akath;
+
+                    hypo = Math.sqrt((gkath * gkath) + (akath * akath));
+                    hypo = Math.round(hypo*100)/100; 
+                    document.formular.hypo.value = hypo;
+
+                    winkalpha = Math.round(winkalpha*100)/100;                
+                    document.formular.alpha.value = winkalpha;
+
+                    beta = 180 - 90 - winkalpha;
+                    beta = Math.round(beta*100)/100;
+                    document.formular.beta.value = beta;
+
+                    flaeche = (akath * gkath) / 2;
+                    flaeche = Math.round(flaeche*100)/100;
+                    document.formular.flaeche.value = flaeche;
+                }
+                else if (gkath == 0 && akath > 0 && hypo == 0 && winkalpha == 0 && winkbeta > 0 && winkbeta < 90)
+                {
+                    beta = winkbeta * (Math.PI / 180); 
+                    gkath = akath / Math.tan(beta);
+                    gkath = Math.round(gkath*100)/100; 
+                    document.formular.gegenkat.value = gkath;
+
+                    akath = Math.round(akath*100)/100; 
+                    document.formular.ankat.value = akath;
+
+                    hypo = Math.sqrt((gkath * gkath) + (akath * akath));
+                    hypo = Math.round(hypo*100)/100; 
+                    document.formular.hypo.value = hypo;
+
+                    alpha = 180 - 90 - winkbeta;
+                    alpha = Math.round(alpha*100)/100; 
+                    document.formular.alpha.value = alpha;
+
+                    beta = Math.round(winkbeta*100)/100;
+                    document.formular.beta.value = beta;
+
+                    flaeche = (akath * gkath) / 2;
+                    flaeche = Math.round(flaeche*100)/100;
+                    document.formular.flaeche.value = flaeche;
+                }
+                else if (gkath == 0 && akath == 0 && hypo > 0 && winkalpha > 0 && winkalpha < 90 && winkbeta == 0)
+                {
+                    alpha = winkalpha * (Math.PI / 180);
+                    gkath = hypo * Math.sin(alpha);
+                    gkath = Math.round(gkath*100)/100; 
+                    document.formular.gegenkat.value = gkath;
+
+                    akath = hypo * Math.cos(alpha);
+                    akath = Math.round(akath*100)/100; 
+                    document.formular.ankat.value = akath;
+
+                    hypo = Math.round(hypo*100)/100; 
+                    document.formular.hypo.value = hypo;
+
+                    alpha = Math.round(winkalpha*100)/100; 
+                    document.formular.alpha.value = alpha;
+
+                    beta = 180 - 90 - winkalpha;
+                    beta = Math.round(beta*100)/100;
+                    document.formular.beta.value = beta;
+
+                    flaeche = (akath * gkath) / 2;
+                    flaeche = Math.round(flaeche*100)/100;
+                    document.formular.flaeche.value = flaeche;
+                }
+
+                else if (gkath == 0 && akath == 0 && hypo > 0 && winkalpha == 0 && winkbeta > 0 && winkbeta < 90)
+                {
+                    beta = winkbeta * (Math.PI / 180); 
+                    gkath = hypo * Math.cos(beta);
+                    gkath = Math.round(gkath*100)/100; 
+                    document.formular.gegenkat.value = gkath;
+                    
+                    akath = hypo * Math.sin(beta);
+                    akath = Math.round(akath*100)/100; 
+                    document.formular.ankat.value = akath;
+
+                    hypo = Math.round(hypo*100)/100; 
+                    document.formular.hypo.value = hypo;
+
+                    alpha = 180 - 90 - winkbeta;
+                    alpha = Math.round(alpha*100)/100; 
+                    document.formular.alpha.value = alpha;
+
+                    beta = Math.round(winkbeta*100)/100;
+                    document.formular.beta.value = beta;
+
+                    flaeche = (akath * gkath) / 2;
+                    flaeche = Math.round(flaeche*100)/100;
+                    document.formular.flaeche.value = flaeche;
+                }
+
+                else if (gkath == 0 && akath == 0 && hypo == 0 && winkalpha > 0 && winkbeta > 0)
+                {
+                    zuruecksetz();
+                    alert("Mit zwei Winkeln ist Berechnung nicht möglich!", "!Warnung!");                    
+                }
+                
+                else if (winkalpha >= 90 || winkbeta >= 90)
+                {
+                    zuruecksetz();
+                    alert("Bitte prüfen Sie Ihre Eingaben!", "!Warnung!");                    
+                }
+
+                else if ((gkath > 0 && akath > 0 && hypo > 0 && winkalpha == 0 && winkbeta == 0) ||
+                         (gkath > 0 && akath > 0 && hypo > 0 && winkalpha == 0 && winkbeta > 0) ||
+                         (gkath > 0 && akath > 0 && hypo == 0 && winkalpha > 0 && winkbeta == 0) ||
+                         (gkath == 0 && akath > 0 && hypo > 0 && winkalpha > 0 && winkbeta == 0) ||
+                         (gkath == 0 && akath > 0 && hypo > 0 && winkalpha == 0 && winkbeta > 0) ||
+                         (gkath > 0 && akath > 0 && hypo > 0 && winkalpha > 0 && winkbeta > 0) ||
+                         (gkath == 0 && akath == 0 && hypo == 0 && winkalpha == 0 && winkbeta == 0) ||
+                         (gkath > 0 && akath == 0 && hypo == 0 && winkalpha > 0 && winkbeta > 0) ||
+                         (gkath == 0 && akath > 0 && hypo == 0 && winkalpha > 0 && winkbeta > 0)
+                         )
+                {
+                    zuruecksetz();
+                    alert("Bitte bitte nur zwei Werte angeben!", "!Warnung!");
+                }
+                else 
+                { }
+            }
+
+            catch (e)
+            {
+                zuruecksetz();
+                alert("Bitte geben Sie in jedes Feld Zahlen ein! \nGegebenenfalls 0 eingeben!");                
+            }
+	} 	
+	
+		
+	function zuruecksetz()
+	{
+		document.formular.gegenkat.value = " ";
+		document.formular.ankat.value = " ";
+		document.formular.hypo.value = " ";	
+		document.formular.alpha.value = " ";
+		document.formular.beta.value = " ";	
+		document.formular.flaeche.value = " ";				
+	}
+  
+  </script> 		
+</body>
+</html>

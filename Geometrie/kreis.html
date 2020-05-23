@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="PWA zur Berechnung eines Kreises" name="description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=contain">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta content="de" http-equiv="Content-Language">   
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">  
+  <title>Geometrie Kreis</title>
+     
+	<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-65703025-1', 'auto');
+ga('send', 'pageview');
+  </script>
+  
+  <!-- Adsense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-8397765882296907",
+    enable_page_level_ads: true
+  });
+</script> 
+  
+</head>
+<body style="background-color: rgb(204, 0, 0);">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- FePwa -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8397765882296907"
+     data-ad-slot="5528952293"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<script type="text/javascript"> 
+  'use strict';
+
+"use strict";
+
+	/** Variablendeklaration **/
+		var d = 0;
+        var u = 0; 
+        var f = 0;                 	
+
+function loescheTextfelder()
+	{
+		document.formular.TB_Erg_umfang.value = " ";
+		document.formular.TB_Erg_flaeche.value = " ";					
+	}
+
+function berechne() 
+	{
+		try
+		{	
+			d = parseFloat(eval(document.formular.TB_durchmesser.value.replace(',', '.')));    
+				
+			if (d >= 0)
+            	{
+                    berechumfang();
+                    berechflaeche();                    
+                }
+                else 
+                {
+                    alert("Bitte prüfen Sie Ihre Eingaben! \nBereich nicht zulässig!");
+                }
+         }
+         catch (e)
+         {
+                loescheTextfelder();
+                alert("Bitte prüfen Sie Ihre Eingaben!");
+         }		
+	}		
+
+        function berechumfang()
+        {
+            u = (d * Math.PI);                    
+            u = Math.round(u * 10) / 10;
+			document.formular.TB_Erg_umfang.value = u.toString().replace('.', ','); 	
+        }
+
+        function berechflaeche()
+        {          
+        	f = Math.pow((d/2),2) * Math.PI;                    
+            f = Math.round(f * 10) / 10;
+			document.formular.TB_Erg_flaeche.value = f.toString().replace('.', ','); 
+        }        
+   </script>
+
+<div style="border-width: 5px;"> <span
+ style="font-family: Arial,Helvetica,sans-serif;"> 
+	<img alt="Logo"
+ src="logo512.png" style="margin: 10px; float: left; height: 62px; width: 62px;"
+ height="295" width="226"><br>
+&nbsp;&nbsp;&nbsp; <span style="color: rgb(255, 255, 255);">
+	<a href="http://www.Fenster-Soft.de" style="text-decoration: none; color: #FFFFFF"><strong>www.Fenster-Soft.de</strong></a></span>
+	
+<div style="position: relative; top: 30px; color: #FFFFFF; left: -70px;">     
+	<h3>Geometrie: Kreis </h3>
+	</div>	
+
+<span style="color: rgb(255, 255, 255);"><strong>&nbsp; 
+	</strong></span></span>&nbsp;
+	<form action="" method="post" name="formular" style="margin: 10px;">
+  <table style="text-align: left; width: 170px; height: 194px;">
+    <tbody>
+      <tr>
+        <td style="width: 180px; text-align: left; vertical-align: top;"
+ 		rowspan="2"> &nbsp;&nbsp; 
+		<img style="position: absolute; left: 10px; width: 170px; "
+ 		alt="Kreis" src="kreis.png" id="bild1">&nbsp;&nbsp;
+ 		<div style="position: relative; top: -10px; left: 180px">
+        <p style="color: #FFFFFF; font-family: Arial, Helvetica, sans-serif;">
+		<strong>Durchmesser</strong></p>
+        </div>
+ 		<input name="TB_durchmesser" style="width: 70px; position: relative; left: 180px; top: -20px;" tabindex="1"
+ 			onchange="loescheTextfelder()" type="number"></td></tr></tbody> </table>        
+ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        
+ 
+&nbsp; 
+<input name="button2" onclick="location.href='index.html'" value="zurück" tabindex="3" type="button" style="width: 80px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<input name="button1" onclick="berechne()" value="berechne" tabindex="2" type="button" style="width: 80px; margin-top: 0px;"><br>
+
+&nbsp;<br>
+
+
+	<span style="font-family: Arial,Helvetica,sans-serif; text-decoration: underline; color: rgb(255, 255, 255);"> 
+		<strong>Ergebnisse:</strong></span><br>
+  <table style="width: 235px; height: 60px;">
+    <tbody>
+      <tr>
+        <td style="width: 69px"> <span
+ style="font-family: Arial,Helvetica,sans-serif; color: rgb(255, 255, 255);">
+        <input name="TB_Erg_umfang" style="width: 70px;" readonly="true"></span></td>
+        <td style="width: 177px"><span
+ style="font-family: Arial,Helvetica,sans-serif; color: rgb(255, 255, 255);">&nbsp;<strong>Umfang</strong></span></td>
+      </tr>
+      <tr>
+        <td style="width: 69px"> <span
+ style="font-family: Arial,Helvetica,sans-serif; color: rgb(255, 255, 255);">
+        <input name="TB_Erg_flaeche" style="width: 70px;" readonly="true"></span></td>
+        <td style="width: 177px"> 
+		<span
+ style="font-family: Arial,Helvetica,sans-serif; color: rgb(255, 255, 255);">
+		&nbsp;<strong>Fläche </strong> </span></td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <span
+ style="font-family: Arial,Helvetica,sans-serif; color: rgb(255, 255, 255);">&nbsp; </span></form>
+<br>
+</div>
+		
+</body>
+</html>
