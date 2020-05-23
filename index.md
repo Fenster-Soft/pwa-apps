@@ -143,7 +143,7 @@ ga('send', 'pageview');
 		  </div>
         <div class="col-xs-6 col-sm-3">
 			<p style="font-weight: bold">Sparren Demo</p><a href="Sparren/index.html">
-			<img src="Image/logoS512.png" alt="Bild Sparren" style="width: 150px; height: 150px" class="img-thumbnail" alt="Bild Sparren"></a>
+			<img src="images/logoS512.png" alt="Bild Sparren" style="width: 150px; height: 150px" class="img-thumbnail" alt="Bild Sparren"></a>
 		  <li class="list-group-item" style="text-align: left; font-size: medium">PWA zur Berechnung von waagrechten und geneigten Einfeldträgern: Sparren, Pfosen, etc.</li>
 		  </div>
 		  <!-- Der clearfix wird nur für die benötigte Breite des Ansichtsfensters hinzugefügt -->
@@ -163,7 +163,7 @@ ga('send', 'pageview');
 	   <div class="row" style="position: relative; top: 60px; font-size: medium;">
         <div class="col-xs-6 col-sm-3">
 			<p style="font-weight: bold">Geometrie</p><a href="Geometrie/index.html">
-			<img src="Image/logoGeo512.png" alt="Geometrie Bild" style="width: 150px; height: 150px" class="img-thumbnail" alt="Bild Geo"></a>
+			<img src="images/logoGeo512.png" alt="Geometrie Bild" style="width: 150px; height: 150px" class="img-thumbnail" alt="Bild Geo"></a>
 		  <li class="list-group-item" style="text-align: left; font-size: medium">PWA zur Berechnung von rechtwinkeligen Dreiecken, 
 		  beliebigen Dreiecken und Kreisen.</li>
 		  </div>
