@@ -111,7 +111,7 @@ ga('send', 'pageview');
       <div class="row" style="position: relative; top: 25px; font-size: medium;">
         <div class="col-xs-6 col-sm-3">
 			<p style="font-weight: bold">GlasbauEasy</p><a href="https://www.fenster-soft.de/GlasbauEasy/index.html">
-			<img src="images/logo512.png" alt="GlasbauEasy Logo" style="width: 150px; height: 150px" class="img-thumbnail" alt="Bild GlasbauEasy"></a>
+			<img src="images/logoEasy512.png" alt="GlasbauEasy Logo" style="width: 150px; height: 150px" class="img-thumbnail" alt="Bild GlasbauEasy"></a>
 		  <li class="list-group-item" style="text-align: left; font-size: medium">PWA zur Berechnung der Glasstatik nach DIN 18008 Teil 1 und Teil 2.</li>
 		  </div>
         <div class="col-xs-6 col-sm-3">
