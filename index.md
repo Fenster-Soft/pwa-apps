@@ -365,6 +365,4 @@ ga('send', 'pageview');
     <!-- Binde alle kompilierten Plugins zusammen ein (wie hier unten) oder such dir einzelne Dateien nach Bedarf aus -->
     <script src="js/bootstrap.min.js"></script>
 	
-	
-  </body>
-</html>
+
