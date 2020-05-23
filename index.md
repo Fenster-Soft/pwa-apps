@@ -356,7 +356,7 @@ ga('send', 'pageview');
 	  sind die jeweiligen Softwarehersteller verantwortlich. 
 	  </p>
       <p class="lead" style="font-size: small; position: relative; top: 180px; ">Änderungen an unserer Software, Dokumentation und Internetseite behalten wir uns vor. Wir nutzen Google Analytics. 
-      Bitte beachten Sie diesbezüglich die Hinweise auf unserer Kontaktseite!<br>&nbsp;</br></p>
+      Bitte beachten Sie diesbezüglich die Hinweise auf unserer Kontaktseite!<br></p>
       
 	    
 		
@@ -365,4 +365,3 @@ ga('send', 'pageview');
     <!-- Binde alle kompilierten Plugins zusammen ein (wie hier unten) oder such dir einzelne Dateien nach Bedarf aus -->
     <script src="js/bootstrap.min.js"></script>
 	
-
