@@ -1,12 +1,11 @@
 <html lang="de">
   <head>
-      <meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="Dipl.-Ing. (FH) Guido Strasser" name="author">
  	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> 
  	
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Die 3 Meta-Tags oben *mÃ¼ssen* zuerst im head stehen; jeglicher sonstiger head-Inhalt muss *nach* diesen Tags kommen -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
     <title>PWA-Apps</title>
     <!-- Bootstrap -->
     <link href="bootstrap.min.css" rel="stylesheet">	    
@@ -16,12 +15,8 @@
     <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: #334460; color: #FFFFFF; font-weight: bold; top: 15px;">
       <div class="container" style="color: #FFFFFF; ">
         <div class="navbar-header" style="margin-right: 5px; margin-left: 5px; text-align: left;">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="color: #FFFFFF">
-            <span class="sr-only">Navigation ein-/ausblenden</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>PWA-Apps&nbsp;  <img alt="Logo" height="100" src="images/Logint1.gif" width="100"></div>
+          PWA-Apps&nbsp;  
+	<img alt="Logo" height="100" src="images/Logint1.gif" width="100"></div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="index.html" style="color: #FFFFFF">Alle</a></li>                      
