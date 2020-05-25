@@ -22,7 +22,7 @@ Daran wird noch gearbeitet....
       <div class="container" style="color: #FFFFFF; ">
         <div class="navbar-header" style="margin-right: 5px; margin-left: 5px; text-align: left;">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="color: #FFFFFF">
-            <span class="sr-only">Navigation ein-/ausblenden</span>
+          
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -299,13 +299,5 @@ Daran wird noch gearbeitet....
 	  <p class="lead" style="font-size: small; position: relative; top: 200px; ">Für die in diesem Portal eingestellten PWA's 
 	  sind die jeweiligen Softwarehersteller verantwortlich. 
 	  </p>
-      <p class="lead" style="font-size: small; position: relative; top: 180px; ">Änderungen an unserer Software, Dokumentation und Internetseite behalten wir uns vor. Wir nutzen Google Analytics. 
-      Bitte beachten Sie diesbezüglich die Hinweise auf unserer Kontaktseite!<br></p>
-      
-	    
-		
-    <!-- jQuery (wird fÃ¼r Bootstrap JavaScript-Plugins benÃ¶tigt) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Binde alle kompilierten Plugins zusammen ein (wie hier unten) oder such dir einzelne Dateien nach Bedarf aus -->
-    <script src="js/bootstrap.min.js"></script>
+      <p class="lead" style="font-size: small; position: relative; top: 180px; ">Änderungen an unserer Software, Dokumentation und Internetseite behalten wir uns vor. 
 	
