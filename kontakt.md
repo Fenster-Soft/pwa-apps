@@ -25,10 +25,7 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="index.html" style="color: #FFFFFF">Alle</a></li>                      
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #FFFFFF">PWA's sortieren<span class="caret"></span></a>              		
-            </li>
-            <li class="dropdown">
+           <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #FFFFFF">Kontakt<span class="caret"></span></a>
               <ul class="dropdown-menu">
 				<li><a href="kontakt.html">Kontakt</a></li>				
