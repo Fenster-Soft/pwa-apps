@@ -9,41 +9,11 @@ Daran wird noch gearbeitet....
     <meta content="Dipl.-Ing. (FH) Guido Strasser" name="author">
  	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> 
  	
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Die 3 Meta-Tags oben *mÃ¼ssen* zuerst im head stehen; jeglicher sonstiger head-Inhalt muss *nach* diesen Tags kommen -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
     <title>PWA-Apps</title>
     <!-- Bootstrap -->
-    <link href="bootstrap.min.css" rel="stylesheet">	
-    <script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-65703025-1', 'auto');
-ga('send', 'pageview');
-  </script>
-  
-  <!-- Adsense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-8397765882296907",
-    enable_page_level_ads: true
-  });
-</script>
+    <link href="bootstrap.min.css" rel="stylesheet">
 
-<!-- Start Cookie Plugin -->
-<script type="text/javascript">
-  window.CookieHinweis_options = {
-  message: 'Diese Website nutzt Cookies, um bestmögliche Funktionalität bieten zu können.',
-  agree: 'Ok, verstanden',
-  learnMore: 'Mehr Infos',
-  link: 'https://www.fenster-soft.de/kontakt.html', /* Link zu den eigenen Datenschutzbestimmungen */
-  theme: 'dunkel-oben' /* weitere Theme-Optionen sind dunkel-oben oder hell-unten-rechts */
- };
-</script>
-<script type="text/javascript" src="https://s3.eu-central-1.amazonaws.com/website-tutor/cookiehinweis/script.js"></script> 
-<!-- Ende Cookie Plugin -->  
   </head>  
   <body>
   
@@ -56,26 +26,14 @@ ga('send', 'pageview');
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </button>PWA-Apps&nbsp;  <img alt="Logo" height="513" src="images/Logint1.gif" width="513"></div>
+          </button>PWA-Apps&nbsp;  <img alt="Logo" height="100" src="images/Logint1.gif" width="100"></div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="index.html" style="color: #FFFFFF">Alle</a></li>                      
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #FFFFFF">PWA's sortieren<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="games.html">Games</a></li>
-                <li><a href="lernen.html">Lernen</a></li>
-                <li><a href="lifestyle.html">Lifestyle</a></li>
-				<li><a href="media.html">Media</a></li>
-				<li><a href="tools.html">Tools</a></li>
-				<li><a href="other.html">Other</a></li>
-			</ul>			
-            </li>
-            <li class="dropdown">
+            
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #FFFFFF">Kontakt<span class="caret"></span></a>
               <ul class="dropdown-menu">
-				<li><a href="kontakt.html">Kontakt</a></li>
-				<li><a href="agb.html">Unsere AGB</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>				
 			  </ul>
 			</li>
 			<li class="dropdown">
@@ -84,29 +42,15 @@ ga('send', 'pageview');
 				<li><a href="pwa.html">Über PWA's</a></li>
 				<li><a href="baupwa.html">PWA's bauen</a></li>
 			  </ul>
-			</li>
-			<!-- <li><a href="baupwa.html" style="color: #FFFFFF">PWA's bauen</a></li> -->
-			
+			</li>	
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>  <!--/.nav-collapse -->
       </div>
     </nav>	
 	
 	<div class="container" style="position: relative; top: 80px">
      <div class="starter-template">
 	<h3 style="position: relative; ">Progressive Web Apps (PWA's): Alle</h3>
-	
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- FePwa -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8397765882296907"
-     data-ad-slot="5528952293"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 	  
       <div class="row" style="position: relative; top: 25px; font-size: medium;">
         <div class="col-xs-6 col-sm-3">
