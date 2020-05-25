@@ -4,7 +4,7 @@ Daran wird noch gearbeitet....
 <html lang="de">
   <head>
     
-      <meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="Dipl.-Ing. (FH) Guido Strasser" name="author">
  	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> 
@@ -13,7 +13,6 @@ Daran wird noch gearbeitet....
     <title>PWA-Apps</title>
     <!-- Bootstrap -->
     <link href="bootstrap.min.css" rel="stylesheet">
-
   </head>  
   <body>
   
@@ -21,9 +20,8 @@ Daran wird noch gearbeitet....
     <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: #334460; color: #FFFFFF; font-weight: bold; top: 15px;">
       <div class="container" style="color: #FFFFFF; ">
         <div class="navbar-header" style="margin-right: 5px; margin-left: 5px; text-align: left;">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="color: #FFFFFF">         
-            
-          </button>PWA-Apps&nbsp;  <img alt="Logo" height="100" src="images/Logint1.gif" width="100"></div>
+          PWA-Apps
+	  <img alt="Logo" height="100" src="images/Logint1.gif" width="100"></div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="index.html" style="color: #FFFFFF">Alle</a></li>                      
