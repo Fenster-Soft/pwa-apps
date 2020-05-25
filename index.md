@@ -21,11 +21,8 @@ Daran wird noch gearbeitet....
     <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: #334460; color: #FFFFFF; font-weight: bold; top: 15px;">
       <div class="container" style="color: #FFFFFF; ">
         <div class="navbar-header" style="margin-right: 5px; margin-left: 5px; text-align: left;">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="color: #FFFFFF">
-          
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="color: #FFFFFF">         
+            
           </button>PWA-Apps&nbsp;  <img alt="Logo" height="100" src="images/Logint1.gif" width="100"></div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -34,8 +31,7 @@ Daran wird noch gearbeitet....
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #FFFFFF">Kontakt<span class="caret"></span></a>
               <ul class="dropdown-menu">
 				<li><a href="kontakt.html">Kontakt</a></li>				
-			  </ul>
-			</li>
+			  </ul>			
 			<li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #FFFFFF">PWA's Infos<span class="caret"></span></a>
               <ul class="dropdown-menu">
